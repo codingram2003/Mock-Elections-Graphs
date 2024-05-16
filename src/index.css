@@ -1,0 +1,105 @@
+@font-face {
+  font-family: CF;
+  src: url(DrymePersonalUseBold-2OYRe.ttf);
+}
+
+body {
+  margin-top: 0%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  color: rgb(255, 0, 43);
+  font-weight: 900;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+
+  padding: 8px;
+  text-align: center;
+}
+
+/*th {
+  background-color: #dddddd;
+} */
+
+.square {
+  height: 50px;
+  width: 50px;
+}
+
+.labels {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.label {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  margin: auto;
+}
+
+.red {
+  background-color: #BE3144;
+}
+
+.blue {
+  background-color: #F05941;
+}
+
+p {
+  color: rgb(191, 184, 185);
+}
+
+h1 {
+  color: aliceblue;
+  height: 9vh;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #b3b2b8 0%,
+    #8767a9 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 3.5em;
+  font-family: CF;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
